@@ -10,8 +10,8 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
-		<spring.version>4.3.6.BUILD-SNAPSHOT</spring.version>
-		<mybatis.version>3.4.3-SNAPSHOT</mybatis.version>
+		<spring.version>4.3.5.RELEASE</spring.version>
+		<mybatis.version>3.4.2</mybatis.version>
 		<mybatisspring.version>1.3.1</mybatisspring.version>
 	</properties>
 
@@ -67,12 +67,12 @@
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
-		<dependency>
+		<!--  <dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>servlet-api</artifactId>
 			<version>3.0.1</version>
 			<scope>provided</scope>
-		</dependency>
+		</dependency>-->
 		<dependency>
 			<groupId>javax.servlet.jsp</groupId>
 			<artifactId>jsp-api</artifactId>
@@ -145,6 +145,6 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>${project.artifactId}_${project.version}_${maven.build.timestamp}</finalName>
+	<!-- <finalName>${project.artifactId}_${project.version}_${maven.build.timestamp}</finalName> -->	
 	</build>
 </project>
