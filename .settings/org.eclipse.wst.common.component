@@ -4,9 +4,8 @@
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/com"/>
-        <property name="context-root" value="communitymanage"/>
         <property name="java-output-path" value="/communitymanage/target/classes"/>
+        <property name="context-root" value="communitymanage_0.0.1-SNAPSHOT_20170113145842"/>
     </wb-module>
 </project-modules>
