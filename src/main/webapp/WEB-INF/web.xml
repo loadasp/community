@@ -44,16 +44,24 @@
 				classpath:spring-mvc.xml
 			</param-value>
 		</init-param>
-		<load-on-startup>1</load-on-startup>
+		<load-on-startup>2</load-on-startup>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>springMvc</servlet-name>
-		<url-pattern>*.html</url-pattern>
-	</servlet-mapping>
+         <servlet-name>default</servlet-name>
+         <url-pattern>*.woff</url-pattern>
+     </servlet-mapping>
+<servlet-mapping>
+         <servlet-name>default</servlet-name>
+         <url-pattern>/statics/*</url-pattern>
+     </servlet-mapping>
 <servlet-mapping>
 		<servlet-name>springMvc</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
+	
+
+
+  
 	<!-- 配置session超时时间，单位分钟 -->
 	<session-config>
 		<session-timeout>30</session-timeout>
