@@ -1,7 +1,8 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
+<%@page import="com.humau.utils.URLResolver"%>
+<%@page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
- <% 
-	String footStaticUrl="/communitymanage/statics"; 
+    <% 
+	String footStaticUrl=URLResolver.getStaticUrl(); 
 	%>
 <!-- jQuery 2.2.3 -->
 <script src="<%=footStaticUrl %>/adminlte/plugins/jQuery/jquery-2.2.3.min.js"></script>

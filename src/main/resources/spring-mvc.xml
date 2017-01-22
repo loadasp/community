@@ -12,16 +12,8 @@
 	<!-- 自动扫描controller包下的所有类，如果@Controller注入为bean -->
 	<context:component-scan base-package="org.humau.community.manage.controller" />
   <mvc:default-servlet-handler/>  
-	<!-- 避免IE执行AJAX时,返回JSON出现下载文件 -->
-	<bean
-         class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
-         <property name="messageConverters">
-             <list>
-                 <ref bean="mappingJacksonHttpMessageConverter" />
-             </list>
-         </property>
-     </bean>
-	<bean id="mappingJacksonHttpMessageConverter"
+  <!-- 避免IE执行AJAX时,返回JSON出现下载文件 -->
+  <bean id="mappingJacksonHttpMessageConverter"
 		class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
 		<property name="supportedMediaTypes">
 			<list>
@@ -29,10 +21,10 @@
 			</list>
 		</property>
 	</bean>
-
+	
 	<!-- 启动Spring MVC的注解功能，完成请求和注解POJO的映射 -->
 	<bean
-		class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
+		class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
 		<property name="messageConverters">
 			<list>
 				<!-- json转换器 -->
