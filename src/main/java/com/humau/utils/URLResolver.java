@@ -1,14 +1,13 @@
-import java.lang.*;
 package com.humau.utils;
 
 public class URLResolver {
 	
 	/*
-	 »ñÈ¡¾²Ì¬ÎÄ¼ş¸ùÂ·¾¶
+	é™æ€æ–‡ä»¶è·¯å¾„
 	 */
 	public static String getStaticUrl()
 	{
-		return "/statics";
+		return "/communitymanage/statics";
 	}
 
 }

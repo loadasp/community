@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
  <% 
-	String footStaticUrl="/statics"; 
+	String footStaticUrl="/communitymanage/statics"; 
 	%>
 <!-- jQuery 2.2.3 -->
 <script src="<%=footStaticUrl %>/adminlte/plugins/jQuery/jquery-2.2.3.min.js"></script>
