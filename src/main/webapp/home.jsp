@@ -361,10 +361,10 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/charts/chartjs.html"><i class="fa fa-circle-o"></i> 我的任务</a></li>
-            <li><a href="pages/charts/morris.html"><i class="fa fa-circle-o"></i> 我的申请</a></li>
-            <li><a href="pages/charts/flot.html"><i class="fa fa-circle-o"></i> 归档任务</a></li>
-            <li><a href="pages/charts/inline.html"><i class="fa fa-circle-o"></i> 归档申请</a></li>
+            <li><a href="pages/charts/chartjs.html"><i class="fa fa-arrow-right"></i> 我的任务</a></li>
+            <li><a href="pages/charts/morris.html"><i class="fa fa-arrow-right"></i> 我的申请</a></li>
+            <li><a href="pages/charts/flot.html"><i class="fa fa-arrow-right"></i> 归档任务</a></li>
+            <li><a href="pages/charts/inline.html"><i class="fa fa-arrow-right"></i> 归档申请</a></li>
           </ul>
        </li>
        </ul>
