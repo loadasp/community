@@ -9,7 +9,7 @@
   <div class="login-box-body">
     <p class="login-box-msg">请登录</p>
 
-    <form action="../../index2.html" method="post">
+    <form action="home.jsp" method="post">
       <div class="form-group has-feedback">
         <input type="text" class="form-control" placeholder="请输入用户名">
         <span class="glyphicon glyphicon-user form-control-feedback"></span>
