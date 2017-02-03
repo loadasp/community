@@ -30,4 +30,4 @@
   <script src="<%=URLResolver.getStaticUrl() %>/js/respond.min.js"></script>
   <![endif]-->
 </head>
-<body class="hold-transition skin-blue sidebar-mini">
+<body class="hold-transition skin-yellow sidebar-mini">
