@@ -5,27 +5,20 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=7" />
-<title>狐獴智慧社区</title>
-<meta name="keywords" content="智慧社区">
-<meta name="description" content="智慧社区">
+<title>平安星官网，儿童GPS定位手表，儿童GPS智能手表，老人GPS定位手表第一品牌</title>
+<meta name="keywords" content="平安星官网，儿童GPS定位手表，儿童GPS智能手表，老人GPS定位手表">
+<meta name="description" content="平安星手表官网欢迎您！ 平安星专注为儿童和老人提供GPS定位智能手表。我们目前已经在天猫（http://pinganxing.tmall.com）开通商铺，为广大消费者提供官方购买通道；">
 <script src="<%=URLResolver.getStaticUrl() %>/js/jquery-3.1.1.min.js"></script>
 <script src="<%=URLResolver.getStaticUrl() %>/js/jquery-ui.min.js"></script>
-<link href="style/css/reset.css" rel="stylesheet" type="text/css" />
-<link href="style/css/style.css" rel="stylesheet" type="text/css" />
+<link href="<%=URLResolver.getStaticUrl() %>/css/reset.css" rel="stylesheet" type="text/css" />
+<link href="<%=URLResolver.getStaticUrl() %>/css/style.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" type="text/css" href="<%=URLResolver.getStaticUrl() %>/css/jquery.fullPage.css" />
-<script type="text/javascript" src="<%=URLResolver.getStaticUrl() %>/js/jquery.fullPage.js"></script>
 <script type="text/javascript" src="<%=URLResolver.getStaticUrl() %>/js/jquery.fullPage.min.js"></script>
-
-
-</head>
-<body>
-<!--[if IE]>
-<style>
-  #section1 #slide1 .bg-wrap li.bg1-1-1{left:6%}
-  #section1 #slide1 .bg-wrap li.bg1-1-3{left:58%}
-</style>
-<![endif]-->
 <script type="text/javascript">
 (function($){
 	$.fn.Show = function(){
@@ -41,6 +34,16 @@
 		}
 	}
 )(jQuery);
+</script>
+</head>
+<body>
+<!--[if IE]>
+<style>
+  #section1 #slide1 .bg-wrap li.bg1-1-1{left:6%}
+  #section1 #slide1 .bg-wrap li.bg1-1-3{left:58%}
+</style>
+<![endif]-->
+<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
 				anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9'],
@@ -116,11 +119,11 @@
       <li><a href="#" title="去天猫购买" target="_blank" class="gm"><em></em><span>去天猫购买</span></a></li>
       <li><a href="#" title="用户登录" target="_blank" class="dl"><em></em><span>用户登录</span></a> </li>
     </ul>
-    <a class="logo f_l c_f" href="/"><img src="style/images/logo.png"></a></div>
+    <a class="logo f_l c_f" href="/"><img src="<%=URLResolver.getStaticUrl() %>/img/logo.png"></a></div>
 </div>
 <div id="fullpage">
   <div class="section" id="section1">
-    <div class="scroll_hint" id="scroll_hint" style=""><img src="style/images/scroll_hint.png"></div>
+    <div class="scroll_hint" id="scroll_hint" style=""><img src="<%=URLResolver.getStaticUrl() %>/img/scroll_hint.png"></div>
     <div class="slide" id="slide1" data-anchor="slide1">
       <div class="page-wrap">
         <div class="page-inner">
