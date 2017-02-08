@@ -9,10 +9,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=7" />
-<title>平安星官网，儿童GPS定位手表，儿童GPS智能手表，老人GPS定位手表第一品牌</title>
-<meta name="keywords" content="平安星官网，儿童GPS定位手表，儿童GPS智能手表，老人GPS定位手表">
-<meta name="description" content="平安星手表官网欢迎您！ 平安星专注为儿童和老人提供GPS定位智能手表。我们目前已经在天猫（http://pinganxing.tmall.com）开通商铺，为广大消费者提供官方购买通道；">
+<title>狐獴智慧社区</title>
+<meta name="keywords" content="智慧社区平台">
+<meta name="description" content="智慧社区">
 <script src="<%=URLResolver.getStaticUrl() %>/js/jquery-3.1.1.min.js"></script>
 <script src="<%=URLResolver.getStaticUrl() %>/js/jquery-ui.min.js"></script>
 <link href="<%=URLResolver.getStaticUrl() %>/css/reset.css" rel="stylesheet" type="text/css" />
@@ -111,13 +110,12 @@
   <div class="nav_box">
     <ul class="menu" id="menu_wrap">
       <li><a href="#" title="首页"><span>首页</span></a> </li>
-      <li><a href="#" title="产品参数" class="cs"><span>产品参数</span></a> </li>
-      <li><a href="#" title="常见问题"><span>常见问题</span></a> </li>
-      <li><a href="#" title="品牌介绍" ><span>品牌介绍</span></a></li>
-      <li><a href="#" title="联系方式" ><span>联系方式</span></a></li>
-      <li><a href="#" title="APP下载"><span>APP下载</span></a> </li>
-      <li><a href="#" title="去天猫购买" target="_blank" class="gm"><em></em><span>去天猫购买</span></a></li>
-      <li><a href="#" title="用户登录" target="_blank" class="dl"><em></em><span>用户登录</span></a> </li>
+      <li><a href="#" title="产品参数" class="cs"><span>生活圈</span></a> </li>
+      <li><a href="#" title="常见问题"><span>左邻右舍</span></a> </li>
+       <li><a href="#" title="品牌介绍" ><span>社区动态</span></a></li>
+      <li><a href="#" title="联系方式" ><span>关于我们</span></a></li>
+    <!--    <li><a href="#" title="APP下载"><span>APP下载</span></a> </li>-->
+        <li><a href="login.jsp" title="用户登录" target="_blank" class="dl"><em></em><span>用户登录</span></a> </li>
     </ul>
     <a class="logo f_l c_f" href="/"><img src="<%=URLResolver.getStaticUrl() %>/img/logo.png"></a></div>
 </div>
@@ -129,9 +127,8 @@
         <div class="page-inner">
           <div class="text-wrap">
             <div class="font">
-              <h2>平安星儿童智能手表</h2>
-              <p class="fs-18">真正实现家长对孩子随时随地关注的智能手表</p>
-              <div class="fs-16 goto_mall"><b class="icon-tm"></b><a href="#" title="去天猫购买" target="_blank">去天猫购买</a><b class="icon-right"></b></div>
+              <h2>智慧社区</h2>
+              <p class="fs-18">智能化小区管理</p>
             </div>
           </div>
           <div class="bg-wrap">
