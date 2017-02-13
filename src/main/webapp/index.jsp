@@ -110,9 +110,10 @@
   <div class="nav_box">
     <ul class="menu" id="menu_wrap">
       <li><a href="#" title="首页"><span>首页</span></a> </li>
-      <li><a href="#" title="产品参数" class="cs"><span>生活圈</span></a> </li>
-      <li><a href="#" title="常见问题"><span>左邻右舍</span></a> </li>
-       <li><a href="#" title="品牌介绍" ><span>社区动态</span></a></li>
+      <li><a href="#" title="物业服务保修、社区公告、缴费管理、家政服务、洗衣店、便民电话、二手市场、房屋租赁、快递代发" class="cs"><span>社区服务</span></a> </li>
+      <li><a href="#" title="周边商家、外卖服务、生活超市、团购服务、积分推荐、红包活动"><span>社区电商</span></a> </li>
+       <li><a href="#" title="政策公告、政策宣传、居民意见、办事指南、社区党建、就业创业" ><span>社区政务</span></a></li>
+        <li><a href="#" title="社区动态、社区活动及组织、社区贴吧、群组圈子" ><span>社区社交</span></a></li>
       <li><a href="#" title="联系方式" ><span>关于我们</span></a></li>
     <!--    <li><a href="#" title="APP下载"><span>APP下载</span></a> </li>-->
         <li><a href="login.jsp" title="用户登录" target="_blank" class="dl"><em></em><span>用户登录</span></a> </li>
